@@ -16,6 +16,7 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
+{/* Landing Section*/}
       <ContentBlock
         type="right"
         title={IntroContent.title}
@@ -24,11 +25,13 @@ const Home = () => {
         icon="5.jpg"
         id="intro"
       />
+{/* Explore section (where caption generation happens)*/}
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
       />
+{/* LearnMore section (More information) */}
       <ContentBlock
         type="left"
         title={AboutContent.title}
@@ -37,25 +40,29 @@ const Home = () => {
         icon="4.png"
         id="about"
       />
-      <ContentBlock
-        type="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
-        icon="product-launch.svg"
-        id="mission"
-      />
-      <ContentBlock
-        type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
-      />
+{/* Contact section (contact form) */}
       <Contact
-        title={ContactContent.title}
-        content={ContactContent.text}
-        id="contact"
+          title={ContactContent.title}
+          content={ContactContent.text}
+          id="contact"
       />
+
+
+{/*       <ContentBlock */}
+{/*         type="right" */}
+{/*         title={MissionContent.title} */}
+{/*         content={MissionContent.text} */}
+{/*         icon="product-launch.svg" */}
+{/*         id="mission" */}
+{/*       /> */}
+{/*       <ContentBlock */}
+{/*         type="left" */}
+{/*         title={ProductContent.title} */}
+{/*         content={ProductContent.text} */}
+{/*         icon="waving.svg" */}
+{/*         id="product" */}
+{/*       /> */}
+
     </Container>
   );
 };
