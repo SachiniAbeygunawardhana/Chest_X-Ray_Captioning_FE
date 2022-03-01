@@ -1,6 +1,6 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Chest X-Ray Captioning",
+  "text": "Read your chest X-Ray within few seconds!",
   "button": [
     {
       "title": "Explore"
