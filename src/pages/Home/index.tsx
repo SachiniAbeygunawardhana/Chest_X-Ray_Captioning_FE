@@ -30,10 +30,12 @@ const Home = () => {
 {/* Explore section (where caption generation happens)*/}
 
       <FunctionBlock
-              title={FunctionBlockContent.title}
-              content={FunctionBlockContent.text}
-              image ="upload.png"
-              button = {FunctionBlockContent.button}
+          title={FunctionBlockContent.title}
+          content={FunctionBlockContent.text}
+          image ="upload.png"
+          button = {FunctionBlockContent.button}
+          uploadButton = {FunctionBlockContent.uploadButton}
+          id="main"
         />
 
 
