@@ -26,10 +26,19 @@ const Home = () => {
         id="intro"
       />
 {/* Explore section (where caption generation happens)*/}
+    <ContentBlock
+        type="right"
+        title={MiddleBlockContent.title}
+        content={MiddleBlockContent.text}
+        button = {MiddleBlockContent.button}
+        icon="upload.png"
+        id="intro"
+      />
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
+        image = "2.png"
+        button = {MiddleBlockContent.button}
       />
 {/* LearnMore section (More information) */}
       <ContentBlock

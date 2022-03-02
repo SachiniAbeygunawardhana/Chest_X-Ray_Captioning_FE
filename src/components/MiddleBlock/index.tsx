@@ -7,6 +7,7 @@ import { MiddleBlockSection, Content, ContentWrapper } from "./styles";
 interface MiddleBlockProps {
   title: string;
   content: string;
+  image? :any;
   button: string;
   t: any;
 }
