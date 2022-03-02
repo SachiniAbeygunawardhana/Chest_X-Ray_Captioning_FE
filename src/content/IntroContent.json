@@ -1,13 +1,15 @@
 {
   "title": "Chest X-Ray Captioning",
-  "text": "Read your chest X-Ray within few seconds!",
+  "text": "Read your Chest X-Ray within few seconds!",
   "button": [
     {
-      "title": "Explore"
+      "title": "Explore",
+      "direct": "main"
     },
     {
       "title": "Learn more",
-      "color": "#fff"
+      "color": "#fff",
+      "direct": "about"
     }
   ]
 }
