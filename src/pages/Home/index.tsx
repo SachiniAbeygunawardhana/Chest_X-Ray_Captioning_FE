@@ -5,12 +5,14 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import FunctionBlockContent from "../../content/FunctionBlockContent.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+const FunctionBlock = lazy(() => import("../../components/FunctionBlock"));
 
 const Home = () => {
   return (
@@ -26,20 +28,15 @@ const Home = () => {
         id="intro"
       />
 {/* Explore section (where caption generation happens)*/}
-    <ContentBlock
-        type="right"
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button = {MiddleBlockContent.button}
-        icon="upload.png"
-        id="intro"
-      />
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        image = "2.png"
-        button = {MiddleBlockContent.button}
-      />
+
+      <FunctionBlock
+              title={FunctionBlockContent.title}
+              content={FunctionBlockContent.text}
+              image ="upload.png"
+              button = {FunctionBlockContent.button}
+        />
+
+
 {/* LearnMore section (More information) */}
       <ContentBlock
         type="left"
